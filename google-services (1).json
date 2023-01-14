@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9373306048",
+    "project_id": "quizapp22-441ad",
+    "storage_bucket": "quizapp22-441ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9373306048:android:da1e6ce82c33c520e7b125",
+        "android_client_info": {
+          "package_name": "com.lex.quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9373306048-b6vcjvuu0srlvmmu5cq6br5robbiohse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU4Sf2-o_JlvyYp49gLM_euCUGPfCVYo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9373306048-b6vcjvuu0srlvmmu5cq6br5robbiohse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

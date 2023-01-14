@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2A56C6</item>
+        <item name="colorPrimaryDark">#1C3AA9</item>
+        <item name="colorAccent">#FB7D00</item>
+    </style>
+
+  <!-- Topic theme. -->
+  <style name="topic_textview" parent="AppTheme">
+
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_marginTop">5dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/textColor</item>
+    
+  </style>
+  
+  <!-- View line theme. -->
+  <style name="View_style" parent="AppTheme">
+
+    <item name="android:background">@color/colorAsh</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1dp</item>
+
+  </style>
+
+  <!-- Splash screen theme. -->
+  <style name="mytheme.splash" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    
+  </style>
+
+  <!-- Actionbar theme. -->
+  <style name="AppTheme.DarkAppBar" parent="ThemeOverlay.MaterialComponents.Dark"/>
+
+</resources>
