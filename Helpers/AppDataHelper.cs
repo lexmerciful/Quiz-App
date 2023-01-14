@@ -23,10 +23,10 @@ namespace Quiz_App.Helpers
             if (app == null)
             {
                 var options = new FirebaseOptions.Builder()
-                    .SetProjectId("quizapp22-441ad")
-                    .SetApplicationId("quizapp22")
-                    .SetApiKey("AIzaSyDU4Sf2-o_JlvyYp49gLM_euCUGPfCVYo4")
-                    .SetStorageBucket("quizapp22-441ad.appspot.com")
+                    .SetProjectId("")
+                    .SetApplicationId("")
+                    .SetApiKey("")
+                    .SetStorageBucket("")
                     .Build();
 
                 app = FirebaseApp.InitializeApp(Application.Context, options);
